@@ -12,8 +12,9 @@
     width: 600px;
     border-radius: 25px;
     padding: 50px;      
-    background-color: rgb(41, 148, 197);
-    box-shadow: 4px 3px 5px 2px black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 4px rgb(0, 0, 0);
+    border: black;
 }
 
 .container {
@@ -24,7 +25,31 @@
     left: 30%;
 }
 
+
+#floor {
+    top: 0px;
+    left: 0px;
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding-right: 1em;
+}   
+
+
+header {
+    background-color: rgb(91, 92, 93);
+    color: white;
+    padding: 1em;
+}
 body {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(3, 57, 101, 1) 25%, rgba(5, 142, 197, 1) 52%, rgba(14, 16, 92, 1) 85%);
+    margin: 0;
 }
