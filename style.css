@@ -11,14 +11,20 @@
     height: 600px;
     width: 600px;
     border-radius: 25px;
-    padding: 50px;
-    background-color: rgb(62, 62, 131);
+    padding: 50px;      
+    background-color: rgb(41, 148, 197);
+    box-shadow: 4px 3px 5px 2px black;
 }
 
 .container {
     display: flex;
-    flex:1;
+    flex: 1;
     position: absolute;
     top: 16%;
     left: 30%;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(3, 57, 101, 1) 25%, rgba(5, 142, 197, 1) 52%, rgba(14, 16, 92, 1) 85%);
 }
